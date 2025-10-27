@@ -13,29 +13,32 @@
         <div class="accordion-content" style="max-height:@(IsOpen ? "1000px" : "0"); overflow:hidden; transition:max-height 0.5s ease;">
             <form class="mx-auto contact-form">
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Nombre" />
+                    <input type="text" class="form-control" placeholder="Nombre" @bind="contact.Nombre" />
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Email" />
+                    <input type="email" class="form-control" placeholder="Email" @bind="contact.Email" />
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Motivo"
+                    <input type="text" class="form-control" placeholder="Solicitar servicio"
                            value="@Motivo" readonly />
                 </div>
                 <div class="mb-3">
-                    <textarea class="form-control" placeholder="Mensaje" rows="4"></textarea>
+                    <textarea class="form-control" placeholder="Mensaje" rows="4" @bind="contact.Mensaje"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary w-100">Enviar</button>
             </form>
+
         </div>
     </div>
 </section>
 
 @code {
     [Inject] private IJSRuntime JS { get; set; } = default!;
+    [Inject] private HttpClient Http { get; set; } = default!;
 
     private bool IsOpen = false;
     private string Motivo { get; set; } = string.Empty;
+    private ContactRequest contact = new();
 
     private void ToggleAccordion()
     {
@@ -50,6 +53,13 @@
 
         await Task.Delay(100);
         await JS.InvokeVoidAsync("scrollToElement", "contacto");
+    }
+
+
+    private async Task HandleSubmit()
+    {
+        await Http.PostAsJsonAsync("https://localhost:7070/api/contact", contact);
+        Console.WriteLine("Mensaje enviado!");
     }
 
 }
