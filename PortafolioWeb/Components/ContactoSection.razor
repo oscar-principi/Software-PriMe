@@ -1,0 +1,55 @@
+﻿<section id="contacto" class="py-5 bg-white">
+    <div class="container">
+
+        <!-- Contenedor flex para H2 y botón -->
+        <div class="d-flex justify-content-center align-items-center mb-4 flex-wrap">
+            <h2 class="display-6 fw-bold m-0">Contacto</h2>
+            <button type="button" class="accordion-btn ms-3" @onclick="ToggleAccordion">
+                <span class="arrow">@((IsOpen ? "▲" : "▼"))</span>
+            </button>
+        </div>
+
+        <!-- Contenido desplegable -->
+        <div class="accordion-content" style="max-height:@(IsOpen ? "1000px" : "0"); overflow:hidden; transition:max-height 0.5s ease;">
+            <form class="mx-auto contact-form">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nombre" />
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email" />
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Motivo"
+                           value="@Motivo" readonly />
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" placeholder="Mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+@code {
+    [Inject] private IJSRuntime JS { get; set; } = default!;
+
+    private bool IsOpen = false;
+    private string Motivo { get; set; } = string.Empty;
+
+    private void ToggleAccordion()
+    {
+        IsOpen = !IsOpen;
+    }
+
+    public async Task RecibirSolicitud(string motivo)
+    {
+        Motivo = motivo;
+        IsOpen = true; 
+        StateHasChanged();
+
+        await Task.Delay(100);
+        await JS.InvokeVoidAsync("scrollToElement", "contacto");
+    }
+
+}

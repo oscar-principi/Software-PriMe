@@ -1,0 +1,50 @@
+﻿<section id="servicios" class="servicios-section">
+    <h2>Soluciones Web que Impulsan tu Negocio</h2>
+    <p class="subtitulo">
+        Desarrollo a medida, rendimiento, seguridad y diseño profesional.
+    </p>
+
+    <div class="servicios-container">
+
+        <!-- Sitios Web -->
+        <div class="servicio-card">
+            <h3>Sitios Web Profesionales</h3>
+            <p>
+                Sitios modernos, rápidos y optimizados para convertir visitantes en clientes.
+            </p>
+            <ul>
+                <li>Diseño adaptado a cualquier dispositivo</li>
+                <li>Optimización SEO</li>
+                <li>Integración con redes sociales</li>
+                <li>Sitios autogestionables</li>
+            </ul>
+            <button class="btn btn-primary"
+                    @onclick='() => OnSolicitar.InvokeAsync("Sitio Web Profesional")'>
+                Solicitar
+            </button>
+        </div>
+
+        <!-- Apps Web -->
+        <div class="servicio-card">
+            <h3>Aplicaciones Web Personalizadas</h3>
+            <p>
+                Funcionalidad, escalabilidad y seguridad para potenciar tu negocio.
+            </p>
+            <ul>
+                <li>Dashboards y paneles administrativos</li>
+                <li>Usuarios y roles</li>
+                <li>Bases de datos y APIs</li>
+                <li>Disponible en la nube</li>
+            </ul>
+            <button class="btn btn-primary"
+                    @onclick='() => OnSolicitar.InvokeAsync("Aplicación Web a Medida")'>
+                Solicitar
+            </button>
+        </div>
+
+    </div>
+</section>
+
+@code{
+    [Parameter] public EventCallback<string> OnSolicitar { get; set; }
+}

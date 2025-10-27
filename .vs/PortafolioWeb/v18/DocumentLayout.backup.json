@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Osky\\Proyectos\\PortafolioWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\components\\contactosection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\components\\contactosection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\components\\serviciossection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\components\\serviciossection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\wwwroot\\css\\servicios.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\wwwroot\\css\\servicios.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\wwwroot\\css\\proyectos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\wwwroot\\css\\proyectos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\components\\homesection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\components\\homesection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|d:\\osky\\proyectos\\portafolioweb\\portafolioweb\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41773832-FD79-4A96-9EA9-3B087A411B05}|PortafolioWeb\\PortafolioWeb.csproj|solutionrelative:portafolioweb\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 179,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "PortafolioWeb\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "PortafolioWeb\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-27T21:41:42.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Proyectos.css",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\Proyectos.css",
+              "RelativeDocumentMoniker": "PortafolioWeb\\wwwroot\\css\\Proyectos.css",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\Proyectos.css",
+              "RelativeToolTip": "PortafolioWeb\\wwwroot\\css\\Proyectos.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T21:26:32.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "PortafolioWeb\\Pages\\Home.razor",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Pages\\Home.razor",
+              "RelativeToolTip": "PortafolioWeb\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T21:25:31.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Servicios.css",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\Servicios.css",
+              "RelativeDocumentMoniker": "PortafolioWeb\\wwwroot\\css\\Servicios.css",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\Servicios.css",
+              "RelativeToolTip": "PortafolioWeb\\wwwroot\\css\\Servicios.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T21:21:56.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiciosSection.razor",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Components\\ServiciosSection.razor",
+              "RelativeDocumentMoniker": "PortafolioWeb\\Components\\ServiciosSection.razor",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Components\\ServiciosSection.razor",
+              "RelativeToolTip": "PortafolioWeb\\Components\\ServiciosSection.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T21:21:35.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Header.razor",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Layout\\Header.razor",
+              "RelativeDocumentMoniker": "PortafolioWeb\\Layout\\Header.razor",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Layout\\Header.razor",
+              "RelativeToolTip": "PortafolioWeb\\Layout\\Header.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T15:43:23.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactoSection.razor",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Components\\ContactoSection.razor",
+              "RelativeDocumentMoniker": "PortafolioWeb\\Components\\ContactoSection.razor",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Components\\ContactoSection.razor",
+              "RelativeToolTip": "PortafolioWeb\\Components\\ContactoSection.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T14:10:47.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.css",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "PortafolioWeb\\wwwroot\\css\\Home.css",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "PortafolioWeb\\wwwroot\\css\\Home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T13:36:38.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeSection.razor",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Components\\HomeSection.razor",
+              "RelativeDocumentMoniker": "PortafolioWeb\\Components\\HomeSection.razor",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Components\\HomeSection.razor",
+              "RelativeToolTip": "PortafolioWeb\\Components\\HomeSection.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T11:51:36.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "PortafolioWeb\\wwwroot\\index.html",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\index.html",
+              "RelativeToolTip": "PortafolioWeb\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-27T11:51:35.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "PortafolioWeb\\wwwroot\\css\\app.css",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "PortafolioWeb\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T11:51:36.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "PortafolioWeb\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "PortafolioWeb\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T11:51:36.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\App.razor",
+              "RelativeDocumentMoniker": "PortafolioWeb\\App.razor",
+              "ToolTip": "D:\\Osky\\Proyectos\\PortafolioWeb\\PortafolioWeb\\App.razor",
+              "RelativeToolTip": "PortafolioWeb\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T11:51:36.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

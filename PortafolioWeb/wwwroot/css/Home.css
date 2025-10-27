@@ -1,0 +1,110 @@
+﻿/* =====================
+   Sección Home + Sobre mí
+===================== */
+#home {
+    display: flex;
+    flex-direction: column; /* columna en móvil */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e9f2f9; /* azul muy suave */
+    text-align: center;
+    padding: 1rem;
+}
+
+    /* Contenido del texto */
+    #home h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        color: #495057;
+    }
+
+    /* Contenedor de texto a la derecha */
+    #home .home-text {
+        max-width: 600px; 
+        width: 100%;
+    }
+
+    /* Contenido “Sobre mí” dentro del home */
+    #home .sobre-mi {
+        background-color: #e9f2f9; /* blanco suave */
+        padding: 2rem 1.5rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+        #home .sobre-mi h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        #home .sobre-mi p {
+            margin-bottom: 1rem;
+        }
+
+/* Badges de tecnologías */
+.tech-badge {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 0.35rem 0.75rem;
+    border-radius: 50rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 0.25rem; 
+}
+
+    .tech-badge:hover {
+        background-color: #0b5ed7;
+        cursor: default;
+    }
+
+/* =====================
+   Avatar / Imagen
+===================== */
+.home-avatar {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border: 3px solid #0d6efd;
+    border-radius: 50%;
+    margin-bottom: 1rem; /* separación en móvil */
+}
+
+/* Avatar más grande y layout en desktop */
+@media (min-width: 768px) {
+    #home {
+        flex-direction: row; /* fila en desktop */
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .home-avatar {
+        width: 16rem;
+        height: 16rem;
+        margin-right: 3rem; /* espacio entre imagen y texto */
+        margin-bottom: 0;
+    }
+
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    #home p {
+        font-size: 1.25rem;
+    }
+
+    /* Sobre mí en desktop */
+    #home .sobre-mi {
+        text-align: left;
+        margin-top: 1rem;
+    }
+}

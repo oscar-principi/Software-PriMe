@@ -1,0 +1,17 @@
+﻿@page "/"
+@using PortafolioWeb.Components
+
+<HomeSection />
+<ServiciosSection OnSolicitar="OnSolicitarClick" />
+<ProyectosSection />
+<ContactoSection @ref="contactoSection" />
+
+
+@code {
+    private ContactoSection? contactoSection;
+
+    private async Task OnSolicitarClick(string motivo)
+    {
+        await contactoSection!.RecibirSolicitud(motivo);
+    }
+}
