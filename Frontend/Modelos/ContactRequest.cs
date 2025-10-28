@@ -1,4 +1,4 @@
-﻿namespace PortafolioWeb
+﻿namespace Frontend
 {
     public class ContactRequest
     {

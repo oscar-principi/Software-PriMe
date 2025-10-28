@@ -30,6 +30,9 @@
 
         </div>
     </div>
+
+    <!-- Snackbar -->
+    <div class="snackbar @SnackbarClass">@SnackbarMessage</div>
 </section>
 
 @code {
@@ -39,6 +42,8 @@
     private bool IsOpen = false;
     private string Motivo { get; set; } = string.Empty;
     private ContactRequest contact = new();
+    private string SnackbarMessage = "";
+    private string SnackbarClass = "";
 
     private void ToggleAccordion()
     {
@@ -62,14 +67,39 @@
         var response = await Http.PostAsJsonAsync("https://localhost:7115/api/contact", contact);
         if (response.IsSuccessStatusCode)
         {
-            await JS.InvokeVoidAsync("alert", "✅ Mensaje enviado correctamente");
+            ShowSnackbar("✅ Mensaje enviado correctamente", "success");
             contact = new(); 
+            IsOpen = true;
+            StateHasChanged();
+
+            await Task.Delay(100);
+            await JS.InvokeVoidAsync("window.scrollTo", 0, 0);
         }
         else
         {
-            await JS.InvokeVoidAsync("alert", "❌ Error al enviar el mensaje");
-        }
+            ShowSnackbar("❌ Error al enviar el mensaje", "error");
+            contact = new();
+            IsOpen = true;
+            StateHasChanged();
 
+            await Task.Delay(100);
+            await JS.InvokeVoidAsync("window.scrollTo", 0, 0);
+        }
+    }
+
+
+    private void ShowSnackbar(string message, string type)
+    {
+        SnackbarMessage = message;
+        SnackbarClass = type;
+        StateHasChanged();
+
+        _ = Task.Run(async () =>
+        {
+            await Task.Delay(3000); 
+            SnackbarClass = "";
+            StateHasChanged();
+        });
     }
 
 }
