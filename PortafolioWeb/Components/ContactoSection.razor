@@ -11,19 +11,19 @@
 
         <!-- Contenido desplegable -->
         <div class="accordion-content" style="max-height:@(IsOpen ? "1000px" : "0"); overflow:hidden; transition:max-height 0.5s ease;">
-            <form class="mx-auto contact-form">
+            <form class="mx-auto contact-form" @onsubmit="HandleSubmit" @onsubmit:preventDefault>
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Nombre" @bind="contact.Nombre" />
+                    <input type="text" class="form-control" placeholder="Nombre" @bind="contact.name" />
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Email" @bind="contact.Email" />
+                    <input type="email" class="form-control" placeholder="Email" @bind="contact.email" />
                 </div>
                 <div class="mb-3">
                     <input type="text" class="form-control" placeholder="Solicitar servicio"
                            value="@Motivo" readonly />
                 </div>
                 <div class="mb-3">
-                    <textarea class="form-control" placeholder="Mensaje" rows="4" @bind="contact.Mensaje"></textarea>
+                    <textarea class="form-control" placeholder="Mensaje" rows="4" @bind="contact.mensaje"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary w-100">Enviar</button>
             </form>
@@ -48,6 +48,7 @@
     public async Task RecibirSolicitud(string motivo)
     {
         Motivo = motivo;
+        contact.motivo = motivo;
         IsOpen = true; 
         StateHasChanged();
 
@@ -58,8 +59,17 @@
 
     private async Task HandleSubmit()
     {
-        await Http.PostAsJsonAsync("https://localhost:7070/api/contact", contact);
-        Console.WriteLine("Mensaje enviado!");
+        var response = await Http.PostAsJsonAsync("https://localhost:7115/api/contact", contact);
+        if (response.IsSuccessStatusCode)
+        {
+            await JS.InvokeVoidAsync("alert", "✅ Mensaje enviado correctamente");
+            contact = new(); 
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("alert", "❌ Error al enviar el mensaje");
+        }
+
     }
 
 }
