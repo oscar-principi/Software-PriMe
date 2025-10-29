@@ -6,18 +6,28 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("appsettings.Development.json", optional: true);
 
 // Servicios
-builder.Services.AddSingleton<IEmailService, EmailService>();
+builder.Services.AddSingleton<IEmailService>(sp =>
+{
+    return new EmailService(sp.GetRequiredService<IConfiguration>());
+});
+
+
 
 builder.Services.AddControllers();
 
-// CORS
+// ===== CORS dinámico según entorno =====
+
+var frontendUrl = Environment.GetEnvironmentVariable("FRONTEND_URL")
+                  ?? "https://localhost:7125"; 
+
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
         policy =>
         {
-            policy.WithOrigins("https://localhost:7125")
+            policy.WithOrigins(frontendUrl)
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });

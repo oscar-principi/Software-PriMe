@@ -64,7 +64,7 @@
 
     private async Task HandleSubmit()
     {
-        var response = await Http.PostAsJsonAsync("https://localhost:7115/api/contact", contact);
+        var response = await Http.PostAsJsonAsync("api/contact", contact);
         if (response.IsSuccessStatusCode)
         {
             ShowSnackbar("✅ Mensaje enviado correctamente", "success");
