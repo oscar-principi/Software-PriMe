@@ -20,7 +20,7 @@
                 </div>
                 <div class="mb-3">
                     <input type="text" class="form-control" placeholder="Solicitar servicio"
-                           value="@Motivo" readonly />
+                           @bind="contact.motivo" readonly />
                 </div>
                 <div class="mb-3">
                     <textarea class="form-control" placeholder="Mensaje" rows="4" @bind="contact.mensaje"></textarea>

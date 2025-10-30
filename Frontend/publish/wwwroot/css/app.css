@@ -1,0 +1,40 @@
+/* Reset general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #212529;
+    width: 100%;
+    overflow-x: clip;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #0d1b2a; 
+}
+
+/* Sections */
+section {
+    padding: 80px 0; 
+    width: 100%;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

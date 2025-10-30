@@ -1,0 +1,27 @@
+﻿#proyectos {
+    background-color: #f8f9fa;
+}
+
+.proyecto-card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1.25rem 1.75rem rgba(0, 0, 0, 0.12);
+}
+
+.proyecto-img {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+
+/* Mejoras responsive */
+@media (max-width: 576px) {
+    .proyecto-img {
+        height: 10rem;
+    }
+}
